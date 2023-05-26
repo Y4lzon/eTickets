@@ -316,7 +316,7 @@ namespace eTickets.Data
             }
 		}
 
-        public static async Task SeedUsersAndRoleAync(IApplicationBuilder applicationBuilder)
+        public static async Task SeedUsersAndRoleAsync(IApplicationBuilder applicationBuilder)
         {
             using (var serviceScope = applicationBuilder.ApplicationServices.CreateScope())
             {

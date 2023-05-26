@@ -94,7 +94,7 @@ namespace eTickets
 
             // Seed database
             AppDbInitializer.Seed(app);
-            AppDbInitializer.SeedUsersAndRoleAync(app).Wait();
+            AppDbInitializer.SeedUsersAndRoleAsync(app).Wait();
         }
     }
 }
